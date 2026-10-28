@@ -841,7 +841,66 @@ figure figcaption {
 }
 
 /* =====================================
-   12. RESPONSIVE DESIGN
+   12. GALLERY FILTER IMPROVEMENTS
+===================================== */
+.gallery-filters {
+    align-items: center;
+    gap: 10px;
+}
+
+.filter-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 2px;
+    min-height: 38px;
+}
+
+.filter-count {
+    font-size: 9px;
+    opacity: 0.65;
+}
+
+.filter-button.active .filter-count {
+    opacity: 1;
+}
+
+.gallery-item[hidden] {
+    display: none !important;
+}
+
+/* give visible items a subtle entrance */
+@keyframes photo-appear {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.gallery-item:not([hidden]) {
+    animation: photo-appear 0.35s ease both;
+}
+
+.gallery-status {
+    min-height: 22px;
+    margin: -18px 0 30px;
+    font-size: 11px;
+    color: var(--muted);
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .gallery-item:not([hidden]) {
+        animation: none;
+    }
+}
+
+/* =====================================
+   13. RESPONSIVE DESIGN
 ===================================== */
 @media (max-width: 900px) {
     .nav-date {

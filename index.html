@@ -404,11 +404,12 @@
                 </p>
             </div>
             <div class="gallery-filters" aria-label="Filter photographs">
-                <button class="filter-button active" data-filter="all">ALL</button>
-                <button class="filter-button" data-filter="portrait">PORTRAITS</button>
-                <button class="filter-button" data-filter="live">LIVE</button>
-                <button class="filter-button" data-filter="candid">CANDID</button>
+                <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">ALL <span class="filter-count">06</span></button>
+                <button class="filter-button" type="button" data-filter="portrait" aria-pressed="false">PORTRAITS <span class="filter-count">02</span></button>
+                <button class="filter-button" type="button" data-filter="live" aria-pressed="false">LIVE <span class="filter-count">02</span></button>
+                <button class="filter-button" type="button" data-filter="candid" aria-pressed="false">CANDID <span class="filter-count">02</span></button>
             </div>
+            <p class="gallery-status" aria-live="polite">Showing all 6 photographs</p>
             <div class="photo-grid">
                 <figure class="gallery-item tall" data-category="portrait">
                     <img src="images/photo-01.jpg" alt="Jeff Buckley portrait">
