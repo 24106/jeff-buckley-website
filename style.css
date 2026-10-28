@@ -900,7 +900,97 @@ figure figcaption {
 }
 
 /* =====================================
-   13. RESPONSIVE DESIGN
+   13. THE LISTENING ROOM
+===================================== */
+.listening-room {
+    background: var(--paper);
+}
+
+.listening-intro {
+    max-width: 720px;
+    margin-bottom: 65px;
+}
+
+.listening-intro h2 {
+    margin-bottom: 25px;
+}
+
+.listening-intro > p:last-child {
+    max-width: 450px;
+    color: var(--muted);
+    font-size: 14px;
+}
+
+.listening-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+}
+
+.listening-card {
+    padding: 35px 28px 35px 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+}
+
+.listening-card + .listening-card {
+    border-left: 1px solid var(--line);
+    padding-left: 28px;
+}
+
+.note-number {
+    font-family: var(--serif);
+    font-size: 17px;
+    color: var(--accent);
+    margin-bottom: 35px;
+}
+
+.listening-card h3 {
+    font-family: var(--serif);
+    font-size: 31px;
+    margin-bottom: 15px;
+}
+
+.listening-card p {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.9;
+    margin-bottom: 30px;
+}
+
+.note-footer {
+    margin-top: auto;
+    font-size: 9px;
+    letter-spacing: 1.5px;
+    color: var(--muted);
+}
+
+.listening-quote {
+    max-width: 780px;
+    margin: 100px auto 0;
+    padding: 45px;
+    border-left: 2px solid var(--accent);
+    background: rgba(139, 67, 56, 0.035);
+}
+
+.listening-quote > p {
+    font-family: var(--serif);
+    font-size: clamp(28px, 4vw, 43px);
+    line-height: 1.35;
+    margin: 20px 0 25px;
+}
+
+.listening-quote cite {
+    font-size: 9px;
+    font-style: normal;
+    letter-spacing: 2px;
+    color: var(--muted);
+}
+
+/* =====================================
+   14. RESPONSIVE DESIGN
 ===================================== */
 @media (max-width: 900px) {
     .nav-date {
@@ -1112,6 +1202,30 @@ figure figcaption {
     .footer {
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .listening-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .listening-card {
+        min-height: auto;
+        padding: 28px 0;
+    }
+
+    .listening-card + .listening-card {
+        border-left: none;
+        border-top: 1px solid var(--line);
+        padding-left: 0;
+    }
+
+    .note-number {
+        margin-bottom: 18px;
+    }
+
+    .listening-quote {
+        padding: 25px;
+        margin-top: 60px;
     }
 }
 
