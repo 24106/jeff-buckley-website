@@ -168,7 +168,7 @@ figure figcaption {
 .logo {
     font-family: var(--serif);
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 250;
 }
 
 .nav-links {
@@ -512,7 +512,12 @@ figure figcaption {
     font-size: 9px;
     letter-spacing: 1px;
     cursor: pointer;
-    transition: background 0.3s, color 0.3s;
+    transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+}
+
+.filter-button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
 }
 
 .filter-button:hover, .filter-button.active {
@@ -918,10 +923,10 @@ figure figcaption {
 }
 
 .gallery-status {
-    min-height: 22px;
-    margin: -18px 0 30px;
+    min-height: 20px;
     font-size: 11px;
     color: var(--muted);
+    margin-bottom: 25px;
 }
 
 @media (prefers-reduced-motion: reduce) {
