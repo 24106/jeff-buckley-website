@@ -3,103 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An independent archive celebrating the life, music, relationships and lasting influence of Jeff Buckley.">
+    <meta name="theme-color" content="#171615">
     <title>Jeff Buckley Archive | ᔉ᐀᐀ᙌ ˖ ࣪</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap"
-    rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <!-- navigation -->
-    <header class="navbar">
-        <a href="#home" class="logo">࣪ᔉ᐀᐀ᙌ⋆.˚</a>
-        <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-        <nav class="nav-links">
-            <a href="#story">Who He Was⊹ ࣪ ˖</a>
-            <a href="#timeline">Life Events ࣪𑣲𝄞</a>
-            <a href="#music">His ࣪Music ࣪♬⋆.˚</a>
-            <a href="#gallery">Photos [¯◉°]</a>
-            <a href="#legacy">His Uniqueness ུ ❃۪ </a>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <a class="site-logo" href="#home" aria-label="Jeff Buckley archive home">࣪ᔉ᐀᐀ᙌ<span>⋆.˚</span></a>
+        <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
+            <span aria-hidden="true">☰</span>
+        </button>
+        <nav class="nav-links" id="primary-navigation" aria-label="Main navigation">
+            <a href="#story">His Story ⊹ ࣪ ˖</a>
+            <a href="#timeline">Timeline ࣪𑣲𝄞</a>
+            <a href="#music">Music ࣪♬⋆.˚</a>
+            <a href="#relationships">Love &amp; relationships ♡⋆°｡⋆</a>
+            <a href="#gallery">Gallery [¯◉°]</a>
+            <a href="#legacy">Legacy ུ ❃۪ </a>
         </nav>
-        <span class="nav-date">1966-1997</span>
+        <span class="header-dates">1966 - 1997</span>
     </header>
-    <main>
+
+    <main id="main">
         <!-- hero -->
-        <section class="hero" id="home">
-            <div class="hero-image photo-placeholder">
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <div class="hero-image">
                 <img src="images/jeff-hero.jpg" alt="Portrait of Jeff Buckley">
             </div>
             <div class="hero-content">
                 <p class="eyebrow">AN ARCHIVE OF AN ARTIST⋆˚ʚɞ</p>
-                <h1>Jeff<br><em>Buckley</em></h1>
+                <h1 id="hero-title">Jeff<br><em>Buckley</em></h1>
                 <p class="hero-description">
-                    Jeff Buckley (November 17, 1966 - May 29, 1997) was an American singe, songwriter, and guitarist, well-known for 
+                    Jeff Buckley was an American singer, songwriter, and guitarist, well-known for 
                     his ethereal, four-octave vocal range and emotional depth.
                 </p>
-                <a href="#music" class="text-link">DISCOVER HIS MUSIC ♫⋆.˚<span>↘</span></a>
+                <p class="hero-dates">November 17, 1966 - May 29, 1997</p>
+                <a class="text-link" href="#music">EXPLORE HIS MUSIC ♫⋆.˚<span aria-hidden="true">↘</span></a>
             </div>
             <p class="vertical-note">AN EXTREMELY TALENTED SINGER</p>
-            <div class="hero-footer">
+            <div class="hero-footer" aria-label="Places associated with Jeff Buckley">
                 <span>ANAHEIM, CALIFORNIA</span>
                 <span>NEW YORK CITY</span>
                 <span>MEMPHIS, TENNESSEE</span>
             </div>
         </section>
+
         <!-- introduction -->
-        <section class="intro section-padding" id="story">
+        <section class="intro section-padding" id="story" aria-labelledby="story-title">
             <div class="section-label">
                 <span>01 / WHO HE WAS</span>
-                <span>A SHORT SUMMARY</span>
+                <span>THE PERSON BEHIND THE VOICE</span>
             </div>
             <div class="intro-grid">
                 <div>
                     <p class="eyebrow">₊˚ ♫ ⋆｡ ♪ ₊˚ ♬.</p>
-                    <h2>A talented artist<br>gone too soon.</h2>
+                    <h2 id="story-title">A talented artist<br>gone too soon.</h2>
                 </div>
                 <div class="intro-copy">
                     <p>
-                        Jeff Buckley was an American singer, songwriter and guitarist 
-                        blessed with a rare, multi-octave vocal range and a remarkably 
-                        expressive delivery. <br>
-                        The son of folk legend Tim Buckley, Jeff forged his own path in 
-                        the early 1990s by captivating New York's East Village music scene 
-                        with his spellbinding solo performances. <br>
-                        He possessed a unique ability to blend alternative rock, jazz, 
-                        and blues into a sounc that was entirely breathtakingly his own.
+                        Jeffrey Scott Buckley was an American singer, songwriter and guitarist born in Anaheim, California.<br>
+                        His expressive voice, adventurous musicianship and emotionally open performances made him one of the most distinctive artists to emerge from New York's early-1990s music scene.
                     </p>
                     <p>
-                        He strengthened his legacy with his 1994 debut album, <em>Grace</em>, 
-                        the only studio album released in his lifetime. <br>
-                        It featured his definitive, soaring cover of Leonary Cohen's "Hallelujah," 
-                        widely considered one of the greatest vocal performances in modern music history.
+                        He was the son of folk musician Tim Buckley, but the two had little time together.<br>
+                        Jeff built his own musical identity, drawing on an ususually wide range of influences rather than following one genre or anyone else's expectations.
                     </p>
                     <p>
-                        Tragically, Buckley drowned at age 30 during a spontaneous evening swim in 
-                        the Mississippi River while in Memphis recording his second album. <br>
-                        Though his career was brief, his poetic vulnerability and otherwordly 
-                        artistry continue to influence generations of musicians worldwide.
+                        His debut album, <em>Grace</em>, arrived in 1994.<br>
+                        It was the only full-length studio album released during his lifetime.<br>
+                        His interpretation of Leonary Cohen's <em>Hallelujah</em> later introduced his music to an enormous new audience.
+                    </p>
+                    <p>
+                        In May 1997, while preparing material for a second album in Memphis, Buckley drowned in Wolf River Harbor.<br>
+                        He was 30.<br>
+                        The recordings he left behind, including the unfinished material later collected as <em>Sketches for My Sweetheart the Drunk</em>, show an artist whose music was still changing.
                     </p>
                 </div>
             </div>
-            <figure class="wide-photo photo-placeholder">
-                <!--- change image to be on the left, under eyebrow -->
-                <img src="images/jeff-portrait.jpg" alt="Jeff Buckley portrait">
+            <figure class="wide-photo">
+                <img src="images/jeff-portrait.jpg" alt="Jeff Buckley in a portrait photograph">
+                <figcaption>Jeff Buckley · 1966-1997</figcaption>
             </figure>
         </section>
+
         <!-- timeline -->
-        <section class="timeline-section section-padding" id="timeline">
+        <section class="timeline-section section-padding" id="timeline" aria-labelledby="timeline-title">
             <div class="section-label">
                 <span>02 / LIFE EVENTS</span>
-                <span>HIS WHOLE LIFE IN A TIMELINE</span>
+                <span>A LIFE IN CHRONOLOGICAL ORDER</span>
             </div>
             <div class="timeline-intro">
                 <p class="eyebrow">𓉸ྀི ⊹˙✧ ݁˖ ༘ ⋆｡˙</p>
-                <h2>The tragic, beautiful journey of a <em>legendary voice.</em></h2>
+                <h2 id="timeline-title">The tragic, beautiful journey of a <em>legendary voice.</em></h2>
                 <p class="timeline-lead">
-                    A unique voice who brought rare emotion and beauty to alternative rock. <br>
-                    This timeline covers the key moments of a brief career and a musical legacy that lives on today.
+                    From a childhood surrounded by music to the East Village stages, the release of <em>Grace</em>, and the unfinished Memphis recordings.
                 </p>
-                <img src="images/jeff-timeline.jpg" alt="Jeff ݁Buckley">
+                <img src="images/jeff-timeline.jpg" alt="Jeff ݁Buckley during his music career">
             </div>
             <div class="timeline">
                 <article class="timeline-item">
@@ -108,96 +114,59 @@
                         <span class="timeline-tag">THE BEGINNING</span>
                         <h3>Jeff Buckley is Born ℘ ࣪ ˖</h3>
                         <p>
-                            Jeffrey Scott Buckley was born on November 17, 1966, in Anaheim, California, 
-                            to Mary Huibert and singer-songwriter Tim Buckley. 
-                            Although the world would come to know him as Jeff, his family called him Scottie.
+                            Jeffrey Scott Buckley was born on November 17, 1966, in Anaheim, California, to Mary Guibert and singer-songwriter Tim Buckley. 
+                            His family called him Scottie when he was young.
                         </p>
                         <p class="timeline-extra">
-                            His parents separated when he was young, and Jeff was primarily raised by his mother. 
-                            Music would become central to his life, but his path into to was not straightforward.
+                            His parents separated when he was a baby, and he was raised primarily by his mother and stepfather, Ron Moorhead.
                         </p>
                     </div>
                     <span class="timeline-mark">01</span>
                 </article>
                 <article class="timeline-item">
-                    <span class="timeline-year">1970-1975</span>
+                    <span class="timeline-year">1970s</span>
                     <div class="timeline-body">
-                        <span class="timeline-tag">FAMILY & IDENTITY</span>
-                        <h3>More About His Family ᥫ᭡.</h3>
+                        <span class="timeline-tag">FAMILY &amp; CHILDHOOD</span>
+                        <h3>A Complicated Connection to His Father ᥫ᭡.</h3>
                         <p>
-                            Jeff had little contact with his biological father, Tim Buckley, 
-                            a respected and adventurous folk singer who died in 1975, when Jeff 
-                            was eight years old. 
-                            Their relationship was brief, and Jeff grew up largely outside his father's 
-                            world of music.
+                            Jeff had very little contact with his biological father, Tim Buckley. 
+                            They met only briefly, when Jeff was a child. 
+                            Tim died in 1975, aged 28.
                         </p>
                         <p class="timeline-extra">
-                            His stepfather, Ron Moorhead, played an important role in his upbringing and 
-                            introduced him to Led Zeppelin. 
-                            Jeff's eventual career would lead people to compare him with Tim, but he was 
-                            determined to develop an identity and musical language of his own.
+                            Jeff grew up largely outside his father's musical world. 
+                            Later, he was often asked about Tim, but he wanted to be recognised for his own work rather than treated as an extension of his father's career.
                         </p>
                     </div>
                     <span class="timeline-mark">02</span>
                 </article>
                 <article class="timeline-item">
-                    <span class="timeline-year">1970s</span>
+                    <span class="timeline-year">1970s-1980s</span>
                     <div class="timeline-body">
                         <span class="timeline-tag">DISCOVERING MUSIC</span>
-                        <h3>The Music That Shaped Him ˖ ݁♬⋆</h3>
+                        <h3>Finding His Influences ˖ ݁♬⋆</h3>
                         <p>
-                            Growing up in Southern California, Jeff explored rock, soul, folk, blues 
-                            and other musical traditions. 
-                            Led Zeppelin became an important early influence, while his interests would 
-                            eventually extend to jazz, experimental music and singers from around the world.
+                            Jeff became interested in guitar as a child and developed a broad musical taste. 
+                            Led Zeppelin was an important early influence, alongside soul, blues, folk and musicians from many different traditions.
                         </p>
                         <p class="timeline-extra">
-                            He was not interested in staying within one genre. 
-                            That curiousity would later become one of the defining characteristics of his 
-                            performances: a set could move from a delicate ballard to a noisy, unpredictable 
-                            interpretation of another artist's song.
+                            He studied at the Musicians Institute in Los Angeles and spent time playing in different bands and taking session work. 
+                            He was initially more focused on guitar than on becoming a singer.
                         </p>
                     </div>
                     <span class="timeline-mark">03</span>
                 </article>
                 <article class="timeline-item">
-                    <span class="timeline-year">1980s</span>
-                    <div class="timeline-body">
-                        <span class="timeline-tag">FINDING HUS VOICE</span>
-                        <h3>Before Fame ⋆˚꩜｡⋆</h3>
-                        <p>
-                            As a teenager, Jeff played in bands and developed his guitar skills. 
-                            He later attended the Musicians Institute in Los Angeles, continuing to study 
-                            music while taking different jobs and performing with other musicians.
-                        </p>
-                        <p class="timeline-extra">
-                            Interestingly, he did not always want to be the singer. 
-                            For a time, he concentrated on playing guitar and was reluctant to sing in public. 
-                            His extraordinary voice would eventually become the centrepiece of his career, 
-                            but he first approached music as an instrumentalist.
-                        </p>
-                    </div>
-                    <span class="timeline-mark">04</span>
-                </article>
-                <article class="timeline-item">
                     <span class="timeline-year">1990</span>
                     <div class="timeline-body">
                         <span class="timeline-tag">A NEW CITY</span>
-                        <h3>Los Angeles to New York ᯓ ✈︎</h3>
+                        <h3>Moving to New York ᯓ ✈︎</h3>
                         <p>
-                            Jeff moved to New York around 1990, bringing his guitar, his developing 
-                            songwriting and a desire to explore music beyond the Los Angeles scene. 
-                            New York's downtown community introduced him to experimental artists, 
-                            poets and musicians.
-                        </p>
-                        <p class="timeline-extra">
-                            Rather than immediately pursuing conventional pop stardom, he played small 
-                            venues and sought out opportunities to experiment. 
-                            The intimacy of these performances would become essential to his identity 
-                            as an artist.
+                            Jeff moved to New York in 1990. 
+                            The Lower East Side and East Village gave him a place to explore experimental music, meet artists and develop his own performance style.
                         </p>
                     </div>
-                    <span class="timeline-mark">05</span>
+                    <span class="timeline-mark">04</span>
                 </article>
                 <article class="timeline-item">
                     <span class="timeline-year">1991</span>
@@ -205,34 +174,43 @@
                         <span class="timeline-tag">A DEFINING PERFORMANCE</span>
                         <h3>Greetings from Tim Buckley ˙⋆✮⋆˚࿔</h3>
                         <p>
-                            Jeff performed at a tribute concert for his late father at St. Ann's Church 
-                            in Brooklyn. 
-                            His appearance brought new attention to his remarkable singing and introduced 
-                            him to people who might otherwise never have discovered his music.
+                            Jeff performed at a tribute concert for his father at St. Ann's Church in Brooklyn. 
+                            The performance brought attention to his extraordinary voice and helped introduce him to New York's music community.
                         </p>
                         <p class="timeline-extra">
-                            The occasion was complicated: he had not grown up with a close relationship 
-                            with Tim, and he did not want his own career to be defined by his father's reputation. 
-                            Yet the performance helped open a door into New York's music scene.
+                            It was an emotionally complicated occasion: Jeff had not grown up with a close relationship with Tim and he did not want his own career defined by his father's name. 
+                        </p>
+                    </div>
+                    <span class="timeline-mark">05</span>
+                </article>
+                <article class="timeline-item">
+                    <span class="timeline-year">1991-1992</span>
+                    <div class="timeline-body">
+                        <span class="timeline-tag">COLLABORATION</span>
+                        <h3>Gods and Monsters with Gary Lucas ♪ ༘⋆</h3>
+                        <p>
+                            Jeff worked with guitarist Gary Lucas in the group Gods and Monsters. 
+                            Their collaboration helped shape early versions of songs including <em>Mojo Pin</em> and <em>Grace</em>.
+                        </p>
+                        <p class="timeline-extra">
+                            Lucas wrote musical pieces that Jeff developed with melodies and lyrics. 
+                            Their work became an important part of the foundation for his later solo career.
                         </p>
                     </div>
                     <span class="timeline-mark">06</span>
                 </article>
                 <article class="timeline-item">
-                    <span class="timeline-year">1991-1992</span>
+                    <span class="timeline-year">1991-1993</span>
                     <div class="timeline-body">
-                        <span class="timeline-tag">COLLABORATION  & EXPERIMENTATION</span>
-                        <h3>A Band Called Gods and Monsters ♪ ༘⋆</h3>
+                        <span class="timeline-tag">LOVE &amp; NEW YORK</span>
+                        <h3>Meeting Rebecca Moore ˙𓍢ִ໋ ᰔᩚ</h3>
                         <p>
-                            Jeff joined Gods and Monsters, a musical project led by guitarist Gary Lucas, 
-                            formerly associated with Caption Beefheart. 
-                            Their collaboration helped Jeff develop original material and explore more 
-                            adventurous arrangements.
+                            Jeff met artist Rebecca Moore in 1991. 
+                            They became partners, and their relationship was an important part of his early New York years and the emotional world surrounding the writing of <em>Grace</em>.
                         </p>
                         <p class="timeline-extra">
-                            Two important songs associated with this collaboration were "Mojo Pin" and "Grace", 
-                            which would later appear on his debut album. 
-                            Jeff eventually left the project and pursued his own path as a solo performer.
+                            They later separated but remained connected. 
+                            Their relationship is particularly relevant to understanding the intensely personal song <em>Forget Her</em>.
                         </p>
                     </div>
                     <span class="timeline-mark">07</span>
@@ -240,18 +218,15 @@
                 <article class="timeline-item">
                     <span class="timeline-year">1992-1993</span>
                     <div class="timeline-body">
-                        <span class="timeline-tag">HIS EAST VILLAGE YEARS</span>
+                        <span class="timeline-tag">THE EAST VILLAGE YEARS</span>
                         <h3>Performing at Café Sin-é ˙⋆☕︎₊˚⸝⸝</h3>
                         <p>
                             Jeff became closely associated with Sin-é, a small café in New York's East Village. 
-                            Performing with his electric guitar, he played original songs alongside covers of 
-                            musicians he admired.
+                            Performing solo with his guitar, he played original songs alongside adventurous interpretations of music by artists he admired.
                         </p>
                         <p class="timeline-extra">
-                            These sets revealed how much could be achieved with very little: a voice, a guitar 
-                            and a room full of people listening. 
-                            He could transform a familiar song into something deeply personal, making each 
-                            performance feel spontaneous rather than rehearsed.
+                            His sets could more from folk and blues to jazz, soul and unexpected covers. 
+                            The intimate performances made it clear that he was a compelling live performer even without a full band.
                         </p>
                     </div>
                     <span class="timeline-mark">08</span>
@@ -259,18 +234,11 @@
                 <article class="timeline-item">
                     <span class="timeline-year">1993</span>
                     <div class="timeline-body">
-                        <span class="timeline-tag">FIRST OFFICIAL RELEASE</span>
+                        <span class="timeline-tag">FIRST RELEASE</span>
                         <h3>Live at Sin-é ‧₊˚♪ 𝄞⊹</h3>
                         <p>
-                            Columbia Records released Live at Sin-é in 1993. 
-                            The four-song EP captured Jeff performing in the intimate café setting that 
-                            had helped establish his reputation.
-                        </p>
-                        <p class="timeline-extra">
-                            Rather than presenting a polished studio production, the recording introduced 
-                            listeners to the immediacy of his live performances. 
-                            It also documented his willingness to draw from an unusually wide range of 
-                            musical influences.
+                            Columbia Records released the four song <em>Live at Sin-é</em> EP in December 1993. 
+                            It captured the stripped-back performances that had helped build Jeff's reputation.
                         </p>
                     </div>
                     <span class="timeline-mark">09</span>
@@ -279,19 +247,14 @@
                     <span class="timeline-year">1993-1994</span>
                     <div class="timeline-body">
                         <span class="timeline-tag">RECORDING A DEBUT</span>
-                        <h3>Recording <em>Grace</em> ♫⋆˚࿔</h3>
+                        <h3>Making <em>Grace</em> ♫⋆˚࿔</h3>
                         <p>
-                            Jeff recorded Grace with produced Andy Wallace at Bearsville Studios in 
-                            Woodstock, New York. 
-                            Working with bassist Mick Grøndahl and drummer Matt Johnson, he developed a 
-                            sound that combined his intimate solo style with the power and complexity of a band.
+                            Jeff recorded <em>Grace</em> at Bearsville Studios in Woodstock, New York, with producer Andy Wallace and musicians including Mick Grøndahl and Matt Johnson. 
+                            The sessions brought his solo songwriting together with a full-band sound.
                         </p>
                         <p class="timeline-extra">
-                            The sessions brought together original compositions, elaborate arrangements and 
-                            carefully chosen covers. 
-                            Jeff was deeply involved in shaping the music, including its dynamics and atmosphere. 
-                            The result was an album that moved between alternative rock, folk, blues and more 
-                            experimental sounds.
+                            The album combined seven original songs with three covers. 
+                            Its arrangements moved between delicate guitar passages, dramatic strings, alternative rock and soulful vocal performances.
                         </p>
                     </div>
                     <span class="timeline-mark">10</span>
@@ -299,392 +262,366 @@
                 <article class="timeline-item featured-milestone">
                     <span class="timeline-year">1994</span>
                     <div class="timeline-body">
-                        <span class="timeline-tag">THE ALBUM THAT CHANGED EVERYTHING</span>
+                        <span class="timeline-tag">THE BREAKTHROUGH</span>
                         <h3><em>Grace</em> is Released ᯓ 𝄞 ˎˊ˗</h3>
                         <p>
-                            Released on August 23, 1994, Grace became Jeff's only full-length studio album 
-                            released during his lifetime. 
-                            It introduced listeners to original songs including "Last Goodbye", "Lover, You 
-                            Should've Come Over", "Grace" and "Dream Brother".
+                            Released on August 23, 1994, <em>Grace</em> was Jeff's only full-length studio album released during his lifetime. 
+                            It included <em>Last Goodbye</em>, <em>Lover, You Should've Come Over</em>, <em>Grace</em>, <em>Dream Brother</em> and his now-famous interpretation of Leonard Cohen's <em>Hallelujah</em>.
                         </p>
                         <p class="timeline-extra">
-                            The recording also featured "Lilac Wine", "Corpus Christi Carol" and a striking 
-                            interpretation of Leonard Cohen's "Hallelujah". 
-                            Its emotional range was remarkable: delicate, vulnerable passages could give way 
-                            to soaring vocals and intense instrumental climaxes.
-                        </p>
-                        <p class="timeline-extra">
-                            Although the album did not instantly make Jeff a mainstream superstar, it earned 
-                            devoted listeners and lasting critical respect. 
-                            Its reputation would continue to grow in the years that followed.
+                            The album did not immediately make him a mainstream superstar, but it earned devoted listeners and critical admiration. 
+                            Its reputation grew considerably in the years after his death.
                         </p>
                         <aside class="timeline-fact">
-                            <span class="timeline-tag">FROM THE RECORDING SESSIONS</span>
-                            <h4>The song that almost made <em>Grace</em></h4>
+                            <span class="timeline-tag">A SONG LEFT OFF THE ORIGINAL ALBUM</span>
+                            <h4>The song of <em>Forget Her</em></h4>
                             <p>
-                                "Forget Her" was recorded during the Grace sessions, but Jeff 
-                                ultimately removed it from the original album after he and Michael 
-                                Tighe wrote "So Real". 
-                                It wasn't included on the original 1994 tracklist. 
-                                Fans could later find it on the second disc of the 2004 Grace: Legacy Edition.
+                                <em>Forget Her</em> was recorded during the <em>Grace</em> sessions and was considered for the album. 
+                                The song was about Jeff's breakup with Rebecca Moore. 
+                                According to reporting by the <em>Los Angeles Times</em>, Jeff later felt it was inappropriate to release after the pair reconciled. 
+                                The song was left off the original 1994 tracklist and eventually appeared on the 2004 <em>Grace: Legacy Edition</em>.
+                            </p>
+                            <p>
+                                That personal history helps explain why the song mattered so much to him: it was not simply another track, but something tied to a real relationship and a private period of his life.
                             </p>
                         </aside>
-                        <a class="timeline-link" href="#music">
-                            EXPLORE GRACE AND THE ALBUMS ↗
-                        </a>
                     </div>
                     <span class="timeline-mark">11</span>
                 </article>
                 <article class="timeline-item">
                     <span class="timeline-year">1994-1995</span>
                     <div class="timeline-body">
-                        <span class="timeline-tag">ON THE ROAD</span>
-                        <h3>International Performances ⊹₊⟡⋆</h3>
+                        <span class="timeline-tag">LOVE &amp; MUSIC</span>
+                        <h3>Elizabeth Fraser ❤︎₊ ⊹</h3>
                         <p>
-                            Following the release of Grace, Jeff toured extensively with his band, 
-                            performing across North America and Europe. 
-                            His live shows gave the songs room to change, sometimes sounding more 
-                            explosive or unpredictable than their studio versions.
+                            During this period Jeff had a relationship with Elizabeth Fraser, singer of Cocteau Twins. 
+                            The two recorded the unreleased duet <em>All Flowers in Time Bend Towards the Sun</em>.
                         </p>
                         <p class="timeline-extra">
-                            Jeff was not simply recreating the album every night. 
-                            He continued experimenting with arrangements, covers and vocal delivery. 
-                            His concerts became an important part of his artistic identity, and live 
-                            recordings preserve different sides of his music.
+                            Cocteau Twins' <em>Rilkean Heart</em> is identified on the band's official website as being about the late Jeff Buckley. 
+                            The song first appeared on the 1995 <em>Twinlights</em> EP and was later revoked for <em>Milk &amp; Kisses</em>. 
+                            Fraser also spoke about the song's personal emotional territory in a 1996 interview, so it is best understood as a deeply personal reflection rather than a simple biography in song.
                         </p>
                     </div>
                     <span class="timeline-mark">12</span>
                 </article>
                 <article class="timeline-item">
-                    <span class="timeline-year">1995-1996</span>
+                    <span class="timeline-year">1994-1996</span>
                     <div class="timeline-body">
-                        <span class="timeline-tag">BEYOND THE DEBUT</span>
-                        <h3>Producing New Songs 𝄞⨾𓍢ִ໋</h3>
+                        <span class="timeline-tag">TOURING</span>
+                        <h3>Taking <em>Grace</em> around the world ⊹₊⟡⋆</h3>
                         <p>
-                            Rather than simply repeat the formula of Grace, Jeff continued writing, collaborating 
-                            and testing different musical ideas. 
-                            His performances featured an evolving mixture of original material and interpretations 
-                            of songs by other artists.
+                            Jeff and his band toured extensively across North America, Europe, Japan and Australia. 
+                            The songs continued to evolve onstage, with performances that could be more expansive, spontaneous or intense than the studio recordings. 
                         </p>
                         <p class="timeline-extra">
-                            He was an artist who valued exploration. 
-                            The music taking shape during this period would eventually reveal a rougher, more 
-                            varied direction, with songs and recordings that differed considerably from the 
-                            carefully arranged sound of his debut.
+                            <em>Grace</em> earned a gold certification in France, and Jeff received the Grand Prix International du Disque from the Académie Charles Cros in 1995. 
                         </p>
                     </div>
                     <span class="timeline-mark">13</span>
                 </article>
                 <article class="timeline-item">
-                    <span class="timeline-year">1996-1997</span>
+                    <span class="timeline-year">1994-1997</span>
                     <div class="timeline-body">
-                        <span class="timeline-tag">MEMPHIS SESSIONS</span>
-                        <h3>An Album Left Unfinished ₊˚⋆☾₊✧</h3>
+                        <span class="timeline-tag">LOVE &amp; PRIVATE LIFE</span>
+                        <h3>Joan Wasser ₊˚⊹ ᢉ𐭩</h3>
                         <p>
-                            Jeff travelled to Memphis, Tennessee, to work on his second album. 
-                            He recorded new material with produced Tom Verlaine, exploring ideas that would 
-                            eventually be heard on Sketches for My Sweetheart the Drunk.
+                            Jeff's relationship with musician Joan Wasser began in the mid-1990s. 
+                            Wasser, who later became known as Joan as Police Woman, was his partner during his final years. 
+                            Accounts have described them as engaged shortly before his death.
                         </p>
                         <p class="timeline-extra">
-                            Unlike Grace, which had been carefully developed into a finished studio album, this 
-                            new project remained incomplete. 
-                            The surviving recordings document an artist still changing direction, experimenting 
-                            and discovering what he wanted his next record to become.
+                            Joan was among the people closest to him during this period. 
+                            Their relationship is part of the personal story of his final years, alongside his friendships and the musical work he was developing in Memphis.
                         </p>
                     </div>
                     <span class="timeline-mark">14</span>
                 </article>
                 <article class="timeline-item">
-                    <span class="timeline-year">1997</span>
+                    <span class="timeline-year">1996-1997</span>
                     <div class="timeline-body">
-                        <span class="timeline-tag">MAY 29 · MEMPHIS</span>
-                        <h3>A Life Cut Short ⊹﹏ ࣪ ˖</h3>
+                        <span class="timeline-tag">A MUSICAL DIRECTION</span>
+                        <h3>The Memphis Recordings 𝄞⨾𓍢ִ໋</h3>
                         <p>
-                            Jeff Buckley died on May 29, 1997, aged 30, in a drowning accident in Memphis 
-                            while work on his second album was still underway.
+                            Jeff began working on a second album, recording with producer Tom Verlaine in New York and Memphis. 
+                            The new material had a different, sometimes rougher sound from the carefully arranged <em>Grace</em>.
                         </p>
                         <p class="timeline-extra">
-                            His death left behind an unfinished body of work and a career whose possibilities 
-                            were still unfolding. 
-                            There would be no completed second album during his lifetime, and the music that 
-                            followed would offer glimpses of the directions he might have taken.
+                            He continued writing and revising songs, experimenting with new arrangements and playing small, sometimes unannounced performances under different names. 
+                            The album was still unfinished when he died.
                         </p>
                     </div>
                     <span class="timeline-mark">15</span>
                 </article>
                 <article class="timeline-item">
-                    <span class="timeline-year">1998</span>
+                    <span class="timeline-year">May 29, 1997</span>
                     <div class="timeline-body">
-                        <span class="timeline-tag">THE UNFINISHED ALBUM</span>
-                        <h3><em>Sketches for My Sweetheart the Drunk 𝄞⋆ ݁𝄢 .</em></h3>
+                        <span class="timeline-tag">MAY 29 · HIS FINAL DAY</span>
+                        <h3>Jeff Buckley Died Aged 30 ⊹﹏ ࣪ ˖</h3>
                         <p>
-                            Released after Jeff's death, Sketches for My Sweetheart the Drunk brought 
-                            together recordings from his final creative period. 
-                            The two-disc release presented unfinished songs and studio material rather 
-                            than a completed album approved by Jeff.
+                            On the evening of May 29, 1997, Jeff went swimming fully clothed in Wolf River Harbor, a channel connected to the Mississippi River. 
+                            A passing boat's wake pulled him under. 
+                            His friend and roadie Keith Foti were nearby. 
                         </p>
                         <p class="timeline-extra">
-                            Its rawer textures and changing arrangements offer a fascinating contrast with Grace. 
-                            Listening to the two albums side by side reveals how much Jeff's musical ideas were 
-                            continuing to evolve.
+                            His death was ruled an accidental drowning. 
+                            He had been in Memphis to work on his second album, and his death left that project unfinished.
                         </p>
+                        <aside class="timeline-fact">
+                            <span class="timeline-tag">A DETAIL FROM THE SEARCH</span>
+                            <h4>The Green Nail Polish</h4>
+                            <p>
+                                Jeff's body was recovered six days later, on June 4. 
+                                By then, identification was difficult. 
+                                A detailed account in <em>At Length</em> reports that his road manager, Gene Bowen, identified him using his navel ring and green nail polish on three toes.
+                            </p>
+                            <p>
+                                The green polish is a documented part of the identification story. 
+                                Some retellings connect it to his partner Joan Wasser, but the sources used for this archive do not firmly establish who applied it, so that detail is not presented here as a confirmed fact.
+                            </p>
+                        </aside>
                     </div>
                     <span class="timeline-mark">16</span>
                 </article>
                 <article class="timeline-item">
-                    <span class="timeline-year">2000s</span>
+                    <span class="timeline-year">1998</span>
                     <div class="timeline-body">
-                        <span class="timeline-tag">THE ARCHIVE OPENS</span>
-                        <h3>Finding New Audiences .⋆⭒˚𖠋𖠋𖠋</h3>
+                        <span class="timeline-tag">POSTHUMOUS RELEASE</span>
+                        <h3><em>Sketches for My Sweetheart the Drunk 𝄞⋆ ݁𝄢 .</em></h3>
                         <p>
-                            A series of archival releases brought more of Jeff's performances and recordings to listeners. 
-                            Mystery White Boy, Live at Sin-é: Legacy Edition and Grace: Legacy Edition expanded the 
-                            picture of his work beyond the original studio album.
+                            Released on May 26, 1998, the two-disc collection brought together recordings from Jeff's final creative period. 
+                            It was assembled after his death from unfinished studio material and other recordings.
                         </p>
                         <p class="timeline-extra">
-                            These releases preserved different versions of songs, covers, concert performances 
-                            and material from the Grace sessions. 
-                            They helped demonstrate that Jeff's musical world was much broader than a single 
-                            album could capture.
+                            Tracks such as <em>Everybody Here Wants You</em>, <em>Morning Theft</em> and <em>Vancouver</em> reveal how his sound was developing beyond <em>Grace</em>.
                         </p>
                     </div>
                     <span class="timeline-mark">17</span>
                 </article>
                 <article class="timeline-item">
-                    <span class="timeline-year">2016-TODAY</span>
+                    <span class="timeline-year">2000s-today</span>
                     <div class="timeline-body">
-                        <span class="timeline-tag">A CONTINUING DISCOVERY</span>
-                        <h3>New Listeners 𖡼.𖤣𖥧𖡼.𖤣𖥧</h3>
+                        <span class="timeline-tag">A GROWING LEGACY</span>
+                        <h3>New Listeners Discover His Music .⋆⭒˚𖠋𖠋𖠋</h3>
                         <p>
-                            Later releases, including You and I in 2016, introduced more early studio 
-                            recordings and interpretations of songs Jeff admired. 
-                            His catalogue continues to offer new listeners different ways into his music.
+                            Archival releases such as <em>Mystery White Boy</em>, the expanded <em>Live at Sin-é</em>, <em>Grace: Legacy Edition</em> and <em>You and I</em> have made more of Jeff's performances and recordings available to listeners.
                         </p>
                         <p class="timeline-extra">
-                            The lasting appeal of Jeff Buckley lies not only in his vocal range, but in his 
-                            sensitivity as a performer, his adventurous musical instincts and the 
-                            vulnerability of his songwriting. 
-                            His recorded work remains a small but distinctive body of music that continues 
-                            to be rediscovered.
+                            His influence continues through his songwriting, adventurous covers, distinctive guitar work and the vulnerability of his performances.
                         </p>
                     </div>
                     <span class="timeline-mark">18</span>
                 </article>
             </div>
-            <figure class="timeline-photo photo-placeholder">
-                <img src="images/jeff-live.jpg" alt="Jeff Buckley performing live">
-                <figcaption>
-                    <span>THE LIVE YEARS</span>
-                    <span>THE MUSIC, IN ITS OWN SPACE</span>
-                </figcaption>
+            <figure class="timeline-photo">
+                <img src="images/jeff-live.jpg" alt="Jeff Buckley performing live with his guitar">
+                <figcaption><span>THE LIVE YEARS</span><span>THE MUSIC, IN ITS OWN SPACE</span></figcaption>
             </figure>
-            <p class="timeline-source-note">
-                Historical overview for a fan archive. 
-                Verify individual dates and details against reliable biographical sources.
-            </p>
         </section>
         <!-- music -->
-        <section class="music-section section-padding" id="music">
+        <section class="music-section section-padding" id="music" aria-labelledby="music-title">
             <div class="section-label">
                 <span>03 / HIS MUSIC</span>
-                <span>HIS TOP ALBUMS</span>
+                <span>RELEASES &amp; LISTENING NOTES</span>
             </div>
             <div class="music-heading">
-                <h2>His <em>albums ᯓ𝄞 ˎˊ˗</em></h2>
+                <h2>His <em>albums</em> and <em>songs ᯓ𝄞 ˎˊ˗</em></h2>
                 <p>
                     "I don't really need to be remembered.<br>I hope the music's remembered." - 1994
                 </p>
             </div>
             <div class="album-grid">
                 <article class="album-card">
-                    <div class="album-cover photo-placeholder">
-                        <img src="images/grace.jpg" alt="Grace album">
+                    <div class="album-cover">
+                        <img src="images/grace.jpg" alt="Grace album cover">
                         <span class="album-number">01</span>
                     </div>
                     <p class="album-year">1994 · STUDIO ALBUM</p>
-                    <h3>Grace</h3>
+                    <h3><em>Grace</em></h3>
                     <p>
-                        The only studio album released during his lifetime.
+                        Jeff's only full-length studio album released during his lifetime. 
+                        Seven original songs and three covers combine intimate ballards, alternative rock and remarkable vocal performances.
                     </p>
-                    <a href="https://jeffbuckley.com/discography/grace/" target="_blank" 
-                    rel="noopener noreferrer" class="text-link">EXPLORE ALBUM ↗</a>
+                    <a href="https://jeffbuckley.com/discography/grace/" target="_blank" rel="noopener noreferrer" class="text-link">OFFICIAL ALBUM DETAILS ↗</a>
                 </article>
                 <article class="album-card">
-                    <div class="album-cover photo-placeholder">
-                        <img src="images/sin-e.jpg" alt="Live at Sin-é album artwork">
+                    <div class="album-cover">
+                        <img src="images/sin-e.jpg" alt="Live at Sin-é album cover">
                         <span class="album-number">02</span>
                     </div>
-                    <p class="album-year">1993 · LIVE ALBUM</p>
-                    <h3>Live at Sin-é</h3>
+                    <p class="album-year">1993 · LIVE EP</p>
+                    <h3><em>Live at Sin-é</em></h3>
                     <p>
-                        An intimate glimpse into his solo performances in New York.
+                        A snapshot of Jeff's intimate East Village performances, with solo guitar, original songs and adventurous interpretations of music he loved. 
                     </p>
-                    <a href="https://jeffbuckley.com/discography/live-at-sin-e-legacy-ed/" target="_blank" 
-                    rel="noopener noreferrer" class="text-link">EXPLORE RECORDINGS ↗</a>
+                    <a href="https://jeffbuckley.com/discography/live-at-sin-e-legacy-ed/" target="_blank" rel="noopener noreferrer" class="text-link">OFFICIAL RELEASE DETAILS ↗</a>
                 </article>
                 <article class="album-card">
-                    <div class="album-cover photo-placeholder">
-                        <img src="images/sketches.jpg" alt="Sketches for My Sweetheart the Drunk album artwork">
+                    <div class="album-cover">
+                        <img src="images/sketches.jpg" alt="Sketches for My Sweetheart the Drunk album cover">
                         <span class="album-number">03</span>
                     </div>
                     <p class="album-year">1998 · POSTHUMOUS ALBUM</p>
-                    <h3>Sketches for My Sweetheart the Drunk</h3>
+                    <h3><em>Sketches for My Sweetheart the Drunk</em></h3>
                     <p>
-                        An unfinished body of work that offers a glimpse into the direction his music was taking.
+                        A posthumous collection of unfinished recordings from Jeff's final creative period. 
+                        It documents a musician moving into a different and more exploratory sound. 
                     </p>
-                    <a href="https://jeffbuckley.com/discography/sketches-for-my-sweetheart-the-drunk/" target="_blank" 
-                    rel="noopener noreferrer" class="text-link">EXPLORE RECORDINGS ↗</a>
+                    <a href="https://jeffbuckley.com/discography/sketches-for-my-sweetheart-the-drunk/" target="_blank" rel="noopener noreferrer" class="text-link">OFFICIAL RELEASE DETAILS ↗</a>
                 </article>
                 <article class="album-card">
-                    <div class="album-cover photo-placeholder">
-                        <img src="images/you-and-i.png" alt="You and I album artwork">
+                    <div class="album-cover">
+                        <img src="images/you-and-i.png" alt="You and I album cover">
                         <span class="album-number">04</span>
                     </div>
-                    <p class="album-year">2016 · COMPILATION ALBUM</p>
-                    <h3>You and I</h3>
+                    <p class="album-year">2016 · ARCHIVAL COLLECTION</p>
+                    <h3><em>You and I</em></h3>
                     <p>
-                        Studio demo and cover recordings made in 1993.
+                        A collection of early studio recordings, including interpretations of songs by artists Jeff admired. 
+                        The release highlights his ability to make familiar material feel personal and distinctive.
                     </p>
                     <a href="https://jeffbuckley.com/discography/you-and-i/" target="_blank" 
                     rel="noopener noreferrer" class="text-link">EXPLORE RECORDINGS ↗</a>
                 </article>
                 <article class="album-card">
-                    <div class="album-cover photo-placeholder">
+                    <div class="album-cover">
                         <img src="images/grace-around-the-world.png" alt="Grace Around The World album artwork">
                         <span class="album-number">05</span>
                     </div>
-                    <p class="album-year">2009 · LIVE ALBUM</p>
-                    <h3>Grace Around The World</h3>
+                    <p class="album-year">2009 · LIVE COLLECTION</p>
+                    <h3>Grace Around the World</h3>
                     <p>
-                        Live performances and video footage from various global tour stops.
+                        Live performances from different stages of the <em>Grace</em> era, showing how the songs changed in front of an audience.
                     </p>
-                    <a href="https://jeffbuckley.com/discography/grace-around-the-world-cddvd/" target="_blank" 
-                    rel="noopener noreferrer" class="text-link">EXPLORE RECORDINGS ↗</a>
+                    <a href="https://jeffbuckley.com/discography/grace-around-the-world-cddvd/" target="_blank" rel="noopener noreferrer" class="text-link">OFFICIAL RELEASE DETAILS ↗</a>
                 </article>
                 <article class="album-card">
-                    <div class="album-cover photo-placeholder">
-                        <img src="images/songs-to-no-one.jpg" alt="Songs to No One album artwork">
+                    <div class="album-cover">
+                        <img src="images/songs-to-no-one.jpg" alt="Songs to No One 1991-1992 album artwork">
                         <span class="album-number">06</span>
                     </div>
-                    <p class="album-year">2002 · COLLABORATION ALBUM</p>
-                    <h3>Songs to No One 1991-1992</h3>
+                    <p class="album-year">2002 · ARCHIVAL COLLABORATION</p>
+                    <h3><em>Songs to No One 1991-1992</em></h3>
                     <p>
-                        Early collaborations with guitarist Gary Lucas.
+                        Early recordings and collaborations with guitarist Gary Lucas, documenting an important stage in Jeff's musical development.
                     </p>
-                    <a href="https://jeffbuckley.com/discography/songs-to-no-one-1991-1992/" target="_blank" 
-                    rel="noopener noreferrer" class="text-link">EXPLORE RECORDINGS ↗</a>
+                    <a href="https://jeffbuckley.com/discography/songs-to-no-one-1991-1992/" target="_blank" rel="noopener noreferrer" class="text-link">OFFICIAL RELEASE DETAILS ↗</a>
                 </article>
             </div>
-            <div class="song-notes">
+            <div class="song-notes" id="featured-songs">
                 <div class="music-heading">
-                    <h2>His <em>songs ࣪˖ ִ𐙚</em></h2>
+                    <p class="eyebrow">THE LISTENING GUIDE</p>
+                    <h2>His Ten Most Popular <em>Songs ࣪˖ ִ𐙚</em></h2>
                     <p>
                         "Music belongs in a place with hearts beating, and brains dreaming, and people falling in love." - 1995
                     </p>
                 </div>
-                <div class="song-list">
-                    <button class="song-button" data-note="A painful realization of regret, lost love, and emotional immaturity.">
-                        <span>01</span>
+                <div class="song-grid">
+                    <article class="song-card">
+                        <span class="song-rank">01 · MOST STREAMED</span>
                         <span>Lover, You Should've Come Over</span>
-                        <!-- steams: 656,247,668 -->
-                        <!-- album: grace -->
-                        <!-- place on album: 7th -->
-                        <!-- meaning of the song:  -->
-                        <!-- quote of lyrics:  -->
-                        <span>↗</span>
-                    </button>
-                    <button class="song-button" data-note="A love song about desiring someone amidst competing attention.">
-                        <span>02</span>
-                        <span>Everybody Here Wants You</span>
-                        <!-- steams: 212,530,104 -->
-                        <!-- album: sketches for my sweetheart the drunk -->
-                        <!-- place on album: disc 1, 2th -->
-                        <!-- meaning of the song:  -->
-                        <!-- quote of lyrics:  -->
-                        <span>↗</span>
-                    </button>
-                    <button class="song-button" data-note="Struggling to move on from a painful, toxic past relationship.">
-                        <span>03</span>
-                        <span>Forget Her</span>
-                        <!-- steams: 138,758,538 -->
-                        <!-- album: grace -->
-                        <!-- place on album: 11th -->
-                        <!-- meaning of the song:  -->
-                        <!-- quote of lyrics:  -->
-                        <span>↗</span>
-                    </button>
-                    <button class="song-button" data-note="Accepting a lost, unrequited love while suffocating in deep loneliness.">
-                        <span>04</span>
-                        <span>I Know It's Over</span>
-                        <!-- steams: 79,144,124 -->
-                        <!-- album: you and i -->
-                        <!-- place on album: 10th -->
-                        <!-- meaning of the song:  -->
-                        <!-- quote of lyrics:  -->
-                        <span>↗</span>
-                    </button>
-                    <button class="song-button" data-note="A raw reflection on love, heartbreak, pain, and spiritual surrender.">
-                        <span>05</span>
+                        <p class="song-meta"><span><strong>Album:</strong> Grace (1994)</span><span><strong>Length:</strong> 6:43</span></p>
+                        <p class="lyric-excerpt">"My body turns and yearns for a sleep that won't ever come"</p>
+                        <p class="song-meaning">
+                            A tender, aching song about love, regret, emotional growing pains and the feeling of being unready for a relationship until it may be too late. 
+                            Its slow build mirrors the conflict between hope and heartbreak.
+                        </p>
+                    </article>
+                    <article class="song-card">
+                        <span class="song-rank">02</span>
                         <span>Hallelujah</span>
-                        <!-- steams: 458,267,837 -->
-                        <!-- album: grace -->
-                        <!-- place on album: 6th -->
-                        <!-- meaning of the song:  -->
-                        <!-- quote of lyrics:  -->
-                        <span>↗</span>
-                    </button>
-                    <button class="song-button" data-note="An intense longing for emotional connection amidst relationship doubt.">
-                        <span>06</span>
+                        <p class="song-meta"><span><strong>Album:</strong> Grace (1994)</span><span><strong>Length:</strong> 6:54</span></p>
+                        <p class="lyric-excerpt">"All I've ever learned from love was how to shoot somebody who outdrew you"</p>
+                        <p class="song-meaning">
+                            Jeff's interpretation of Leonard Cohen's song explores the complicated relationship between love, faith, desire and disappointment. 
+                            Its quiet arrangement and fragile delivery make the performance feel intimate rather than triumphant.
+                        </p>
+                    </article>
+                    <article class="song-card">
+                        <span class="song-rank">03</span>
+                        <span>Everybody Here Wants You</span>
+                        <p class="song-meta"><span><strong>Album:</strong> Sketches for My Sweetheart the Drunk (1998)</span><span><strong>Length:</strong> 4:44</span></p>
+                        <p class="lyric-excerpt">"I'm only here for this moment"</p>
+                        <p class="song-meaning">
+                            A warm, sensual soul song about admiration and the desire to make someone feel uniquely loved. 
+                            Its relaxed groove and layered vocals show Jeff moving toward a smoother R&amp;B-influenced sound.
+                        </p>
+                    </article>
+                    <article class="song-card">
+                        <span class="song-rank">04</span>
+                        <span>Forget Her</span>
+                        <p class="song-meta"><span><strong>Album:</strong> Grace (1994)</span><span><strong>Length:</strong> 5:12</span></p>
+                        <p class="lyric-excerpt">"She was heartache from the moment that you met her"</p>
+                        <p class="song-meaning">
+                            Written in the aftermath of Jeff's breakup with Rebecca Moore, this song captures the contradiction of wanting to move on while remaining emotionally attached. 
+                            Its personal history is also why Jeff ultimately withdrew it from the original <em>Grace</em> album after the relationship resumed.
+                        </p>
+                    </article>
+                    <article class="song-card">
+                        <span class="song-rank">05</span>
+                        <span>Last Goodbye</span>
+                        <p class="song-meta"><span><strong>Album:</strong> Grace (1994)</span><span><strong>Length:</strong> 4:36</span></p>
+                        <p class="lyric-excerpt">"I hate to feel the love between us die"</p>
+                        <p class="song-meaning">
+                            An energetic but bittersweet farewell to a relationship. 
+                            The bright, driving arrangement contrasts with the sadness of accepting that love cannot always make two people stay together.
+                        </p>
+                    </article>
+                    <article class="song-card">
+                        <span class="song-rank">06</span>
+                        <span>Grace</span>
+                        <p class="song-meta"><span><strong>Album:</strong> Grace (1994)</span><span><strong>Length:</strong> 5:22</span></p>
+                        <p class="lyric-excerpt">"I'm not afraid, afraid to die"</p>
+                        <p class="song-meaning">
+                            One of Jeff's most dramatic compositions, building from a delicate opening into a powerful rock climax. 
+                            Its imagery has often been read as a meditation on impermanence, change and the intensity of being alive.
+                        </p>
+                    </article>
+                    <article class="song-card">
+                        <span class="song-rank">07</span>
+                        <span>So Real</span>
+                        <p class="song-meta"><span><strong>Album:</strong> Grace (1994)</span><span><strong>Length:</strong> 4:43</span></p>
+                        <p class="lyric-excerpt">"I love you, but I'm afraid to love you"</p>
+                        <p class="song-meaning">
+                            Co-written with Michael Tighe, <em>So Real</em> moves through dreamlike images, encertainty and emotional disorientation. 
+                            Its unusual structure and surging arrangement make it one of the album's more restless songs.
+                        </p>
+                    </article>
+                    <article class="song-card">
+                        <span class="song-rank">08</span>
+                        <span>I Know It's Over</span>
+                        <p class="song-meta"><span><strong>Album:</strong> You and I (2016)</span><span><strong>Length:</strong> 7:02</span></p>
+                        <p class="lyric-excerpt">"She needs you more than she loves you"</p>
+                        <p class="song-meaning">
+                            Jeff's intimate cover of The Smiths' song leans into its themes of loneliness, rejection and longing. 
+                            Rather than copying the original, he gives it a quieter, exposed quality that makes the emotional weight feel very close.
+                        </p>
+                    </article>
+                    <article class="song-card">
+                        <span class="song-rank">09</span>
+                        <span>Lilac Wine</span>
+                        <p class="song-meta"><span><strong>Album:</strong> Grace (1994)</span><span><strong>Length:</strong> 4:32</span></p>
+                        <p class="lyric-excerpt">"I drink much more than I ought to drink because it brings me back to you"</p>
+                        <p class="song-meaning">
+                            Originally written by James Shelton, the song uses the image of lilac wine to evoke intoxication, memory and romantic illusion. 
+                            Jeff's delicate performance makes it feel suspended between a dream and a waking memory.
+                        </p>
+                    </article>
+                    <article class="song-card">
+                        <span class="song-rank">10</span>
                         <span>I Want Someone Badly</span>
-                        <!-- steams: 61,919,954 -->
-                        <!-- album: grace legacy edition -->
-                        <!-- place on album: disc 2, 9th -->
-                        <!-- meaning of the song:  -->
-                        <!-- quote of lyrics:  -->
-                        <span>↗</span>
-                    </button>
-                    <button class="song-button" data-note="A tender, dream-inspired song about love, loss, and AIDS awareness.">
-                        <span>07</span>
-                        <span>Dream of You and I - Extended Version</span>
-                        <!-- steams: 4,202,238 -->
-                        <!-- album: you and i -->
-                        <!-- place on album: 6th -->
-                        <!-- meaning of the song:  -->
-                        <!-- quote of lyrics:  -->
-                        <span>↗</span>
-                    </button>
-                    <button class="song-button" data-note="An angry protest against societal corruption, institutional hatred, and senseless violence.">
-                        <span>08</span>
-                        <span>Eternal Life - Road Version</span>
-                        <!-- steams: 2,083,071 -->
-                        <!-- album: so real: songs from jeff buckley -->
-                        <!-- place on album: 4th -->
-                        <!-- meaning of the song:  -->
-                        <!-- quote of lyrics:  -->
-                        <span>↗</span>
-                    </button>
-                    <button class="song-button" data-note="Resisting surveillance, paranoia, and music industry pressure to sell out.">
-                        <span>09</span>
-                        <span>Haven't You Heard</span>
-                        <!-- steams: 1,787,783 -->
-                        <!-- album: sketches for my sweetheart the drunk -->
-                        <!-- place on album: disc 2, 3rd -->
-                        <!-- meaning of the song:  -->
-                        <!-- quote of lyrics:  -->
-                        <span>↗</span>
-                    </button>
-                    <button class="song-button" data-note="A painful breakup over a fragile, mismatched, and exhausting relationship.">
-                        <span>10</span>
-                        <span>Just Like a Woman</span>
-                        <!-- steams: 15,735,783 -->
-                        <!-- album: you and i -->
-                        <!-- place on album: 1st -->
-                        <!-- meaning of the song:  -->
-                        <!-- quote of lyrics:  -->
-                        <span>↗</span>
-                    </button>
-                <p class="song-note-output" aria-live="polite">
-                    Hover over a song to reveal more information about it.
+                        <p class="song-meta"><span><strong>Album:</strong> Grace Legacy Edition · bonus disc (2004)</span><span><strong>Length:</strong> 2:36</span></p>
+                        <p class="lyric-excerpt">"If you're leaving, just makes sure it's right"</p>
+                        <p class="song-meaning">
+                            Written by Nathan Larson, this short, direct performance centres on longing and the need for emotional connection. 
+                            Its compact length and straightforward intensity make it a striking contrast to Jeff's longer, more elaborate songs.
+                        </p>
+                    </article>
+                </div>
+                <p class="song-footnote">
+                    Lyric snippets are deliberately brief. 
+                    Song interpretations are listening notes, not claims that every lyric has one definitive meaning. 
+                    Song rankings are based on the reported Spotify totals available in October 2026.
                 </p>
             </div>
         </section>
