@@ -625,19 +625,72 @@
                 </p>
             </div>
         </section>
-        <!-- photo archive -->
-        <section class="gallery-section section-padding" id="gallery">
+        <!-- relationships -->
+        <section class="relationships-section section-padding" id="relationships" aria-labelledby="relationships-title">
             <div class="section-label">
-                <span>05 / THE ARCHIVE</span>
+                <span>04 / HIS PERSONAL LIFE</span>
+                <span>THE PEOPLE AND CONNECTIONS</span>
+            </div>
+            <div class="relationship-heading">
+                <p class="eyebrow">BEYOND THE RECORDS</p>
+                <h2 id="relationships-title">Love, friendships<br>and <em>inspiration.</em></h2>
+                <p>
+                    Jeff kept much of his private life away from public attention, but some of his relationships intersected with his music and the poeple around him.
+                </p>
+            </div>
+            <div class="relationship-grid">
+                <article class="relationship-card">
+                    <span class="relationship-period">1991-1993</span>
+                    <h3>Rebecca Moore</h3>
+                    <p>
+                        Artist Rebecca Moore was Jeff's partner during his early New York years. 
+                        Their relationship influenced the emotional world of songs from the <em>Grace</em> period. 
+                        <em>Forget Her</em> is especially closely connected to their breakup. 
+                        They later reconciled, which is reported as part of the reason Jeff decided not to put the song on the original album.
+                    </p>
+                </article>
+                <article class="relationship-card">
+                    <span class="relationship-period">Mid-1990s</span>
+                    <h3>Elizabeth Fraser</h3>
+                    <p>
+                        The Cocteau Twins singer and Jeff shared a romantic and musical connection. 
+                        They recorded the unreleased duet <em>All Flowers in Time Bend Towards the Sun</em>. 
+                        Cocteau Twins' <em>Rilkean Heart</em> is described on the band's official website as being about Jeff. 
+                        Fraser's own interview comments add nuance: the song also reflects her personal journey and the process of finding strength in herself.
+                    </p>
+                </article>
+                <article class="relationship-card">
+                    <span class="relationship-period">Mid-1990s-1997</span>
+                    <h3>Joan Wasser</h3>
+                    <p>
+                        Musician Joan Wasser, later known as Joan as Polic Woman, was Jeff's partner during his final years. 
+                        They were reportedly engaged shortly before his death. 
+                        She was one of the people closest to him during his final period in Memphis.
+                    </p>
+                </article>
+            </div>
+            <aside class="personal-fact">
+                <p class="eyebrow">A SMALL BUT MOVING DETAIL</p>
+                <h3>Why <em>Rilkean Heart</em> matters</h3>
+                <p>
+                    The Cocteau Twins' official discography explicitly connects the song to Jeff Buckley. 
+                    It first appeared on the 1995 <em>Twinlights</em> EP. 
+                    In a 1996 interview, Elizabeth Fraser described the EP as being about a man she had fallen in love with, while also emphasizing that the songs were about her own emotional recovery and self-reliance. 
+                    That context makes the Jeff connection meaningful without reducing the song to only one person or one interpretation.
+                </p>
+            </aside>
+        </section>
+        <!-- gallery -->
+        <section class="gallery-section section-padding" id="gallery" aria-labelledby="gallery-title">
+            <div class="section-label">
+                <span>05 / THE PHOTO ARCHIVE</span>
                 <span>FRAGMENTS OF A LIFE</span>
             </div>
             <div class="gallery-heading">
-                <h2>Seen <em>in passing.</em></h2>
-                <p>
-                    Faces, stages, quiet moments, and everything in between.
-                </p>
+                <h2 id="gallery-title">Seen <em>in passing.</em></h2>
+                <p>Portraits, performances and quieter moments from Jeff's life and career.</p>
             </div>
-            <div class="gallery-filters" aria-label="Filter photographs">
+            <div class="gallery-filters" role="group" aria-label="Filter photographs">
                 <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">ALL</button>
                 <button class="filter-button" type="button" data-filter="portrait" aria-pressed="false">PORTRAITS</button>
                 <button class="filter-button" type="button" data-filter="live" aria-pressed="false">LIVE</button>
@@ -645,66 +698,56 @@
             </div>
             <p class="gallery-status" aria-live="polite">Showing all photographs</p>
             <div class="photo-grid">
-                <figure class="gallery-item tall" data-category="portrait" tabindex="0">
-                    <img src="images/photo-01.jpg" alt="Jeff Buckley portrait">
-                    <figcaption>
-                        <span>01 / PORTRAIT</span>
-                        <span>A FACE TO REMEMBER</span>
-                    </figcaption>
+                <figure class="gallery-item tall" data-category="portrait">
+                    <button class="photo-open" type="button" aria-label="Enlarge portrait photograph">
+                        <img src="images/photo-01.jpg" alt="Portrait of Jeff Buckley">
+                    </button>
+                    <figcaption><span>01 / PORTRAIT</span><span>A FACE TO REMEMBER</span></figcaption>
                 </figure>
-                <figure class="gallery-item" data-category="live" tabindex="0">
-                    <img src="images/photo-02.jpg" alt="Jeff Buckley on stage">
-                    <figcaption>
-                        <span>02 / LIVE</span>
-                        <span>UNDER THE LIGHTS</span>
-                    </figcaption>
+                <figure class="gallery-item" data-category="live">
+                    <button class="photo-open" type="button" aria-label="Enlarge live performance photograph">
+                        <img src="images/photo-02.jpg" alt="Jeff Buckley performing on stage">
+                    </button>
+                    <figcaption><span>02 / LIVE</span><span>UNDER THE LIGHTS</span></figcaption>
                 </figure>
-                <figure class="gallery-item" data-category="candid" tabindex="0">
-                    <img src="images/photo-03.jpg" alt="Candid photograph of Jeff Buckley">
-                    <figcaption>
-                        <span>03 / CANDID</span>
-                        <span>BETWEEN MOMENTS</span>
-                    </figcaption>
+                <figure class="gallery-item" data-category="candid">
+                    <button class="photo-open" type="button" aria-label="Enlarge candid photograph">
+                        <img src="images/photo-03.jpg" alt="Candid photograph of Jeff Buckley">
+                    </button>
+                    <figcaption><span>03 / CANDID</span><span>BETWEEN MOMENTS</span></figcaption>
                 </figure>
-                <figure class="gallery-item wide" data-category="live" tabindex="0">
-                    <img src="images/photo-04.jpg" alt="Jeff Buckley performing with his guitar">
-                    <figcaption>
-                        <span>04 / LIVE</span>
-                        <span>LOST IN THE MUSIC</span>
-                    </figcaption>
+                <figure class="gallery-item wide" data-category="live">
+                    <button class="photo-open" type="button" aria-label="Enlarge concert photograph">
+                        <img src="images/photo-04.jpg" alt="Jeff Buckley playing guitar during a performance">
+                    </button>
+                    <figcaption><span>04 / LIVE</span><span>LOST IN THE MUSIC</span></figcaption>
                 </figure>
-                <figure class="gallery-item tall" data-category="portrait" tabindex="0">
-                    <img src="images/photo-05.jpg" alt="Black and white portrait of Jeff Buckley">
-                    <figcaption>
-                        <span>05 / PORTRAIT</span>
-                        <span>STILLNESS</span>
-                    </figcaption>
+                <figure class="gallery-item tall" data-category="portrait">
+                    <button class="photo-open" type="button" aria-label="Enlarge black and white portrait">
+                        <img src="images/photo-05.jpg" alt="Black and white portrait of Jeff Buckley">
+                    </button>
+                    <figcaption><span>05 / PORTRAIT</span><span>STILLNESS</span></figcaption>
                 </figure>
-                <figure class="gallery-item" data-category="candid" tabindex="0">
-                    <img src="images/photo-06.jpg" alt="Candid moment from Jeff Buckley's career">
-                    <figcaption>
-                        <span>06 / CANDID</span>
-                        <span>A QUIETER MOMENT</span>
-                    </figcaption>
+                <figure class="gallery-item" data-category="candid">
+                    <button class="photo-open" type="button" aria-label="Enlarge candid moment">
+                        <img src="images/photo-06.jpg" alt="Candid moment from Jeff Buckley's career">
+                    </button>
+                    <figcaption><span>06 / CANDID</span><span>A QUIETER MOMENT</span></figcaption>
                 </figure>
             </div>
-            <p class="gallery-footnote">
-                A work in progress. Every photographs has a story beyond the frame.
-            </p>
         </section>
-        <!-- what ࣪to ࣪listen ࣪for -->
-         <section class="listening-room section-padding" id="listening">
+        <!-- listening guide -->
+         <section class="listening-room section-padding" id="listening" aria-labelledby="listening-title">
             <div class="section-label">
-                <span>04 / NOTES ON THE MUSIC</span>
+                <span>06 / NOTES ON THE MUSIC</span>
                 <span>A PERSONAL LISTENING GUIDE</span>
             </div>
             <div class="listening-intro">
                 <p class="eyebrow">SOMEWHERE BETWEEN THE NOTES</p>
-                <h2>Listen for<br><em>the details.</em></h2>
+                <h2 id="listening-title">Listen for<br><em>the details.</em></h2>
                 <p>
                     The voice is only the beginning. 
-                    Listen to the spaces between the words, the way a guitar changes the 
-                    mood, and how a song can feel different every time you hear it.
+                    Listen to the spaces between the words, the way a guitar changes the mood, and how a song can feel different every time.
                 </p>
             </div>
             <div class="listening-grid">
@@ -712,9 +755,8 @@
                     <span class="note-number">01</span>
                     <h3>The voice</h3>
                     <p>
-                        Jeff's vocal performances move between restraint and intensity. 
-                        Notice how a quiet phrase can carry just as much feeling as a 
-                        powerful chorus.
+                        Jeff's performances move between restraint and intensity. 
+                        Notice how a quiet phrase can carry just as much feeling as a powerful chorus.
                     </p>
                     <span class="note-footer">LISTEN FOR / EXPRESSION</span>
                 </article>
@@ -723,8 +765,7 @@
                     <h3>The guitar</h3>
                     <p>
                         The guitar is not simply accompaniment. 
-                        Its movement, texture and changes in dynamics help shape the 
-                        emotional direction of a song.
+                        Its movement, texture and changes dynamics help shape the emotional direction of a song.
                     </p>
                     <span class="note-footer">LISTEN FOR / TEXTURE</span>
                 </article>
@@ -740,47 +781,70 @@
             </div>
             <blockquote class="listening-quote">
                 <span class="eyebrow">A NOTE TO THE LISTENER</span>
-                <p>
-                    You don't have to know the whole story to feel something in the music.
-                </p>
+                <p>You don't have to know the whole story to feel something in the music.</p>
                 <cite>FROM THE ARCHIVE</cite>
             </blockquote>
          </section>
         <!-- legacy -->
-        <section class="legacy-section section-padding" id="legacy">
-            <p class="eyebrow">06 / WHAT REMAINS</p>
-            <h2>Some voices<br>never really <em>leave.</em></h2>
-            <figure class="legacy-image photo-placeholder">
-                <img src="images/jeff-final.jpg" alt="Jeff Buckley portrait">
+        <section class="legacy-section section-padding" id="legacy" aria-labelledby="legacy-title">
+            <p class="eyebrow">07 / WHAT REMAINS</p>
+            <h2 id="legacy-title">Some voices<br>never really <em>leave.</em></h2>
+            <figure class="legacy-image">
+                <img src="images/jeff-final.jpg" alt="Portrait of Jeff Buckley">
             </figure>
             <div class="legacy-copy">
                 <p>
-                    There is something remarkable about discovering an artist years after their 
-                    story has ended, and finding that the music still feels immediate.
+                    There is something remarkable about discovering an artist years after their story has ended and finding that the music still feels immediate.
                 </p>
                 <p>
-                    His recordings continue to travel from one person to another, each listener 
-                    finding something different in the same songs.
+                    Jeff's recordings continue to travel from one person to another, with each listener finding something different in the same songs.
                 </p>
-                <p>
-                    This archive is one small way of keeping that discovery alive.
-                </p>
+                <p>This archive is one small way of keeping that discovery alive.</p>
             </div>
             <a href="#home" class="back-to-top">BACK TO THE BEGINNING ↑</a>
         </section>
+
+        <!-- sources -->
+        <section class="sources-section section-padding" id="sources" aria-labelledby="sources-title">
+            <div class="section-label">
+                <span>08 / RESEARCH NOTES</span>
+                <span>FACT-CHECKING &amp; FURTHER READING</span>
+            </div>
+            <h2 id="sources-title">Sources &amp; <em>credits.</em></h2>
+            <p>
+                Dates, release information and biographical details were checked against the official Jeff Buckley archive and the publications below. 
+                Interpretations of individual songs are presented as listening notes rather than definitive explanations.
+            </p>
+            <ul class="source-list">
+                <li><a href="https://jeffbuckley.com/biography/" target="_blank" rel="noopener noreferrer">Jeff Buckley official website - Biography</a></li>
+                <li><a href="https://jeffbuckley.com/discography/grace/" target="_blank" rel="noopener noreferrer">Jeff Buckley official website - <em>Grace</em></a></li>
+                <li><a href="https://jeffbuckley.com/discography/grace-legacy-edition/" target="_blank" rel="noopener noreferrer">Jeff Buckley official website - <em>Grace: Legacy Edition</em></a></li>
+                <li><a href="https://jeffbuckley.com/discography/sketches-for-my-sweetheart-the-drunk/" target="_blank" rel="noopener noreferrer">Jeff Buckley official website - <em>Sketches for My Sweetheart the Dunk</em></a></li>
+                <li><a href="https://jeffbuckley.com/discography/you-and-i/" target="_blank" rel="noopener noreferrer">Jeff Buckley official website - <em>You and I</em></a></li>
+                <li><a href="https://cocteautwins.com/twinlights.html" target="_blank" rel="noopener noreferrer">Cocteau Twins official website - <em>Twinlights</em> and <em>Rilkean Heart</em></a></li>
+                <li><a href="https://cocteautwins.com/press-and-news/1996/01/01/embracing-otherness-alternative-press/" target="_blank" rel="noopener noreferrer">Alternative Press Interview with Elizabeth Fraser, 1996</a></li>
+                <li><a href="https://www.latimes.com/archives/la-xpm-2004-aug-29-ca-popeye29-story.html" target="_blank" rel="noopener noreferrer">Los Angeles Times - Reporting on the decision to leave <em>Forget Her</em> off <em>Grace</em></a></li>
+                <li><a href="https://www.spinmagazine.com/2024/08/jeff-buckley-grace-30-anniversary-interviews/" target="_blank" rel="noopener noreferrer">SPIN - Interviews on the making of <em>Grace</em></a></li>
+                <li><a href="https://atlengthmag.com/standing-water/" target="_blank" rel="noopener noreferrer">At Length - Account of Jeff Buckley's final swim and identification</a></li>
+                <li><a href="https://kworb.net/spotify/artist/3nnQpaTvKb5jCQabZefACI_songs.html" target="_blank" rel="noopener noreferrer">Kworb - Jeff Buckley Spotify stream totals (October 2026 snapshot)</a></li>
+                <li><a href="https://www.allmusic.com/album/grace-mw0000624110" target="_blank" rel="noopener noreferrer">AllMusic - <em>Grace</em> track listing and durations</a></li>
+                <li><a href="https://music.apple.com/us/album/you-and-i/1055390363" target="_blank" rel="noopener noreferrer">Apple Music - <em>You and I</em> track listing and durations</a></li>
+            </ul>
+            <p class="source-disclaimer">
+                This is an independent fan-made project, not affiliated with Jeff Buckley's estate.
+            </p>
+        </section>
     </main>
     <!-- footer -->
-    <footer class="footer">
-        <a href="#home" class="logo">JB.</a>
+    <footer class="site-footer">
+        <a class="site-logo" href="#home">JB<span>.</span></a>
         <p>Made with care, for the music that remains.</p>
         <p class="footer-small">An independent fan-mde project. Not affiliated with Jeff Buckley's estate.</p>
         <span>© 2026 · A PERSONAL ARCHIVE</span>
     </footer>
     <!-- photo viewer -->
      <dialog class="photo-viewer" aria-label="Enlarged photograph">
-        <button class="viewer-close" aria-label="Close photograph">
-            ✕
-        </button>
+        <button class="viewer-close" type="button" aria-label="Close photograph">✕</button>
         <img src="" alt="">
         <p class="viewer-caption"></p>
      </dialog>
